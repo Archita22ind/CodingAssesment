@@ -1,5 +1,7 @@
 #Jenni Code Assessment- Text editor
 
+AWS hosted link: http://54.176.31.9:3000
+
 ## Prerequisites
 
 You will need NodeJS installed on your machine.
@@ -31,7 +33,7 @@ To start the SERVER, go into the 'server' directory and run the following comman
 `npm install`
 
 To run the code,go to 'src' folder under 'server' use the following command:
-`node index.js`
+`npx ts-node server.ts`
 
 To start the UI, go into the 'client' directory and run the following command:
 `npm install`

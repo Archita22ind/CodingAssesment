@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import { io } from "socket.io-client";
 
-const socket = io("http://10.0.0.6:3001");
+const socket = io("http://54.176.31.9:3001");
 
 const App: React.FC = () => {
   const [textContent, setTextContent] = useState("");
